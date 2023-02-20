@@ -20,6 +20,8 @@ public class SmartTV {
         ArrayList<SmarTv> Tele = new ArrayList<>();
             Tele.add(smarTV);
             Tele.add(new SmarTv("Samsung", "New Color", new Especificaciones(24, "4k", new NProducto(233623, 2021))));
+            Tele.add(new SmarTv("Game Factor", "MG700", new Especificaciones(27, "2K", new NProducto(248412, 2021))));
+            
            
         System.out.println(Tele);
     }
